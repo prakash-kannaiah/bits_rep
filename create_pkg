@@ -1,0 +1,17 @@
+step1: to create pkg
+ros2 pkg create --build-type ament_python <pkg_name>
+
+step2: create our file in the folder "ws/src/pkg_name/pkg_name/file_name.py"
+
+step3: config:
+a. setup.py
+  'exec_name = pkg_name.file_name:main',
+
+b. packages (dependencies)
+  <depend>rclpy</depend>
+  <depend>rclpy</depend>
+  <depend>rclpy</depend>
+
+step4: to build the executables:
+colcon build
+(or) colcon build --packages-select <pkg_name>
