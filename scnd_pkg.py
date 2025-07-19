@@ -8,7 +8,7 @@ class class_2(Node):
         self.subscription = self.create_subscription(String, 'topic_name', self.secnd_fn, 10)
 
     def secd_fn (self, msg):
-        self.get_logger().info(f'I heard: "{msg.data}"')
+        self.get_logger().info(f'I subsribe: "{msg.data}"')
 
 def main(args=None):
     rclpy.init(args=args)
