@@ -5,7 +5,7 @@ from std_msgs.msg import String
 class class_2(Node):
     def __init__(self):
         super().__init__('subs_node')
-        self.subscription = self.create_subscription(String, 'chatter', self.secnd_fn, 10)
+        self.subscription = self.create_subscription(String, 'topic_name', self.secnd_fn, 10)
 
     def secd_fn (self, msg):
         self.get_logger().info(f'I heard: "{msg.data}"')
