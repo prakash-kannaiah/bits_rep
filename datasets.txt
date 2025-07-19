@@ -1,0 +1,11 @@
+lidar data:
+https://drive.google.com/drive/folders/1mDzjo5ewUjivep96hKqoYnwYoBtSjOmd
+
+pip install gdown
+(or) pip3 install gdown
+
+cd bag
+  gdown --folder https://drive.google.com/drive/folders/1mDzjo5ewUjivep96hKqoYnwYoBtSjOmd
+
+if error occurs like "gdown not found1" try this
+~/.local/bin/gdown --folder https://drive.google.com/drive/folders/1mDzjo5ewUjivep96hKqoYnwYoBtSjOmd
