@@ -14,3 +14,8 @@ open bag folder: cd ~/bag
 ros2 bag play <ros2bag....date...folder>
 
 ros2 topic echo <topic_name>
+
+to check the details of Bag file:
+in the bag folder (~/bag)
+ros2 bag info <ros2bag...date...folder>
+
