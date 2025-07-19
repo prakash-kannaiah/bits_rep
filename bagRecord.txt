@@ -1,0 +1,16 @@
+to Record:
+
+in window1: run the pkg
+
+in parallel window2 bag folder: mkdir ~/bag # to create folder
+open bag folder: cd ~/bag
+open terminal: and type:
+ros2 bag record </topic_name> </topic_name2> </topic_name3>
+
+to stop record --> press "Ctrl+C"
+
+to play
+open bag folder: cd ~/bag
+ros2 bag play <ros2bag....date...folder>
+
+ros2 topic echo <topic_name>
