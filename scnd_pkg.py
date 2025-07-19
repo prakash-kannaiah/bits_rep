@@ -14,7 +14,7 @@ def main(args=None):
     rclpy.init(args=args)
     scnd_obj = class_2()
     rclpy.spin(scnd_obj)
-    scnd.obj.destroy_node()
+    scnd_obj.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
