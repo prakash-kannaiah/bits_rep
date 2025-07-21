@@ -9,3 +9,9 @@ cd bag
 
 if error occurs like "gdown not found1" try this
 ~/.local/bin/gdown --folder https://drive.google.com/drive/folders/1mDzjo5ewUjivep96hKqoYnwYoBtSjOmd
+
+Lidar dataset:
+https://drive.google.com/drive/folders/1mDzjo5ewUjivep96hKqoYnwYoBtSjOmd
+
+camera dataset:
+https://drive.google.com/drive/folders/1DNW4E4pe9TvZaYwRICYY-5azd8p6UVAz
