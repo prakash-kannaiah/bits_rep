@@ -1,0 +1,16 @@
+<launch>
+  <node
+    pkg="speedCntrl_pkg"
+    exec="SpeedCntrl_exec"
+    name="speed_cntrl_node"
+    output="screen">
+    <param from="$(find-pkg-share launcher)/config/speed.param.yaml" />
+  </node>
+
+  <node
+    pkg="speedDisplay_pkg"
+    exec="SpeedDisplay_exec"
+    name="speed_display_node"
+    output="screen" />
+  </node>
+</launch>
